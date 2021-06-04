@@ -1,0 +1,11 @@
+.\objects\lora.o: ..\src\lora\lora.c
+.\objects\lora.o: ..\src\lora\lora.h
+.\objects\lora.o: ..\cmsis\stm32f10x.h
+.\objects\lora.o: ..\cmsis\core_cm3.h
+.\objects\lora.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\lora.o: ..\cmsis\system_stm32f10x.h
+.\objects\lora.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\lora.o: ..\src\led\led.h
+.\objects\lora.o: ..\src\lora\uart.h
+.\objects\lora.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\lora.o: ..\src\light\light.h

@@ -1,0 +1,85 @@
+Dependencies for Project 'IntelligentLighting', Target 'Target': (DO NOT MODIFY !)
+F (..\cmsis\core_cm3.c)(0x4C0C587E)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\src\human -I ..\src\led -I ..\src\light -I ..\src\lora -I ..\src\nvic-I.\RTE\_Target-ID:\Keil\Pack\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+F (..\cmsis\startup_stm32f10x_md.s)(0x4D783CD2)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target-ID:\Keil\Pack\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\Keil\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 528" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (..\cmsis\system_stm32f10x.c)(0x4D783CB0)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\src\human -I ..\src\led -I ..\src\light -I ..\src\lora -I ..\src\nvic-I.\RTE\_Target-ID:\Keil\Pack\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (..\cmsis\stm32f10x.h)(0x4D783CB4)
+I (..\cmsis\core_cm3.h)(0x4D523B58)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\cmsis\system_stm32f10x.h)(0x4D783CAA)
+F (..\src\main.c)(0x60A7EFD6)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\src\human -I ..\src\led -I ..\src\light -I ..\src\lora -I ..\src\nvic-I.\RTE\_Target-ID:\Keil\Pack\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\src\led\led.h)(0x60A7EAD4)
+I (..\cmsis\stm32f10x.h)(0x4D783CB4)
+I (..\cmsis\core_cm3.h)(0x4D523B58)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (..\src\lora\uart.h)(0x607FA2AF)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\src\human\human.h)(0x60876C76)
+I (..\src\human\timer.h)(0x607475CB)
+I (..\src\light\light.h)(0x6087EC1B)
+I (..\src\lora\lora.h)(0x60876F32)
+F (..\src\lora\lora.c)(0x60A7E40E)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\src\human -I ..\src\led -I ..\src\light -I ..\src\lora -I ..\src\nvic-I.\RTE\_Target-ID:\Keil\Pack\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\lora.o --omf_browse .\objects\lora.crf --depend .\objects\lora.d)
+I (..\src\lora\lora.h)(0x60876F32)
+I (..\cmsis\stm32f10x.h)(0x4D783CB4)
+I (..\cmsis\core_cm3.h)(0x4D523B58)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\src\led\led.h)(0x60A7EAD4)
+I (..\src\lora\uart.h)(0x607FA2AF)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\src\light\light.h)(0x6087EC1B)
+F (..\src\light\light.c)(0x60A8A0E8)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\src\human -I ..\src\led -I ..\src\light -I ..\src\lora -I ..\src\nvic-I.\RTE\_Target-ID:\Keil\Pack\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\light.o --omf_browse .\objects\light.crf --depend .\objects\light.d)
+I (..\src\light\light.h)(0x6087EC1B)
+I (..\cmsis\stm32f10x.h)(0x4D783CB4)
+I (..\cmsis\core_cm3.h)(0x4D523B58)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (..\src\lora\uart.h)(0x607FA2AF)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+F (..\src\led\led.c)(0x60B1868E)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\src\human -I ..\src\led -I ..\src\light -I ..\src\lora -I ..\src\nvic-I.\RTE\_Target-ID:\Keil\Pack\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\src\led\led.h)(0x60A7EAD4)
+I (..\cmsis\stm32f10x.h)(0x4D783CB4)
+I (..\cmsis\core_cm3.h)(0x4D523B58)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (..\src\human\human.h)(0x60876C76)
+I (..\src\light\light.h)(0x6087EC1B)
+I (D:\Keil\ARM\ARMCC\include\math.h)(0x5CEB79D6)
+I (D:\Keil\ARM\ARMCC\include\string.h)(0x5CEB79E2)
+I (..\src\lora\uart.h)(0x607FA2AF)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+F (..\src\led\pwm.c)(0x6065C2C3)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\src\human -I ..\src\led -I ..\src\light -I ..\src\lora -I ..\src\nvic-I.\RTE\_Target-ID:\Keil\Pack\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
+F (..\src\human\human.c)(0x60A8A233)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\src\human -I ..\src\led -I ..\src\light -I ..\src\lora -I ..\src\nvic-I.\RTE\_Target-ID:\Keil\Pack\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\human.o --omf_browse .\objects\human.crf --depend .\objects\human.d)
+I (..\src\human\human.h)(0x60876C76)
+I (..\cmsis\stm32f10x.h)(0x4D783CB4)
+I (..\cmsis\core_cm3.h)(0x4D523B58)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (..\src\human\timer.h)(0x607475CB)
+I (..\src\led\led.h)(0x60A7EAD4)
+F (..\src\lora\uart.c)(0x60A7E768)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\src\human -I ..\src\led -I ..\src\light -I ..\src\lora -I ..\src\nvic-I.\RTE\_Target-ID:\Keil\Pack\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (D:\Keil\ARM\ARMCC\include\stdio.h)(0x5CEB79E2)
+I (..\src\lora\uart.h)(0x607FA2AF)
+I (..\cmsis\stm32f10x.h)(0x4D783CB4)
+I (..\cmsis\core_cm3.h)(0x4D523B58)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\cmsis\system_stm32f10x.h)(0x4D783CAA)
+F (..\src\human\timer.c)(0x60860752)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\src\human -I ..\src\led -I ..\src\light -I ..\src\lora -I ..\src\nvic-I.\RTE\_Target-ID:\Keil\Pack\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\timer.o --omf_browse .\objects\timer.crf --depend .\objects\timer.d)
+I (..\src\human\timer.h)(0x607475CB)
+I (..\cmsis\stm32f10x.h)(0x4D783CB4)
+I (..\cmsis\core_cm3.h)(0x4D523B58)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\cmsis\system_stm32f10x.h)(0x4D783CAA)
+I (..\src\human\human.h)(0x60876C76)
+F (..\src\human\timer.h)(0x607475CB)()
+F (..\src\nvic\nvic.c)(0x607477A5)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\cmsis -I ..\src\human -I ..\src\led -I ..\src\light -I ..\src\lora -I ..\src\nvic-I.\RTE\_Target-ID:\Keil\Pack\Keil\STM32F1xx_DFP\1.1.0\Device\Include-ID:\Keil\ARM\CMSIS\Include-D__UVISION_VERSION="528" -DSTM32F10X_HD -DSTM32F10X_HD-o .\objects\nvic.o --omf_browse .\objects\nvic.crf --depend .\objects\nvic.d)
+I (..\src\nvic\nvic.h)(0x607477A4)
+I (..\cmsis\stm32f10x.h)(0x4D783CB4)
+I (..\cmsis\core_cm3.h)(0x4D523B58)
+I (D:\Keil\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
+I (..\cmsis\system_stm32f10x.h)(0x4D783CAA)
+F (..\src\light\light.h)(0x6087EC1B)()
+F (..\src\lora\lora.h)(0x60876F32)()

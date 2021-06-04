@@ -1,0 +1,9 @@
+.\objects\light.o: ..\src\light\light.c
+.\objects\light.o: ..\src\light\light.h
+.\objects\light.o: ..\cmsis\stm32f10x.h
+.\objects\light.o: ..\cmsis\core_cm3.h
+.\objects\light.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\light.o: ..\cmsis\system_stm32f10x.h
+.\objects\light.o: ..\src\lora\uart.h
+.\objects\light.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\light.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h

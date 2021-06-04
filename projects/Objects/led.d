@@ -1,0 +1,12 @@
+.\objects\led.o: ..\src\led\led.c
+.\objects\led.o: ..\src\led\led.h
+.\objects\led.o: ..\cmsis\stm32f10x.h
+.\objects\led.o: ..\cmsis\core_cm3.h
+.\objects\led.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led.o: ..\cmsis\system_stm32f10x.h
+.\objects\led.o: ..\src\human\human.h
+.\objects\led.o: ..\src\light\light.h
+.\objects\led.o: D:\Keil\ARM\ARMCC\Bin\..\include\math.h
+.\objects\led.o: D:\Keil\ARM\ARMCC\Bin\..\include\string.h
+.\objects\led.o: ..\src\lora\uart.h
+.\objects\led.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
